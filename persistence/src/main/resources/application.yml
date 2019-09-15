@@ -1,0 +1,9 @@
+kafka:
+  port: localhost:9092
+  topic: orangeTest
+
+logging:
+  level:
+    root: WARN
+    org.springframework.web: INFO
+    com.memorynotfound: DEBUGl

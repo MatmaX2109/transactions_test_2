@@ -1,0 +1,13 @@
+{
+  "properties": [
+    {
+      "name": "kafka.topic",
+      "type": "java.lang.String",
+      "description": "Description for kafka.topic."
+    },
+    {
+      "name": "kafka.port",
+      "type": "java.lang.String",
+      "description": "Description for kafka.port."
+    }
+  ] }
