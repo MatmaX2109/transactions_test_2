@@ -75,7 +75,7 @@ public class ValidationApplicationTests {
 				"\t\"amount\":\"1\",\n" +
 				"\t\"payer\":{\n" +
 				"\t\t\"name\":\"a\",\n" +
-				"\t\t\"cnp\":\"1890921212716\",\n" +
+				"\t\t\"cnp\":\"1890921212711\",\n" +
 				"\t\t\"iban\":\"RO49AAAA1B31007593840000\"\n" +
 				"\t},\n" +
 				"\t\"payee\":{\n" +
