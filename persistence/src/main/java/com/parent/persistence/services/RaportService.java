@@ -76,7 +76,15 @@ public class RaportService {
                             presentationHashMap.get(t.toString()).getTotal(),
                             transactionDetailsList.get(t.toString())
                     );
+                    raportPresentation.setSumaTotala(raportPresentation.getTotal().toString() + " RON");
+                    raportPresentation.setCountString(raportPresentation.getCount() + " tranzactii");
                     raport.getTransactions().add(raportPresentation);
+                }else{
+                    RaportPresentation raportPresentation = new RaportPresentation();
+                    raportPresentation.setType(t.toString());
+                    raportPresentation.setCountString("Fara Tranzactii");
+                    raport.getTransactions().add(raportPresentation);
+
                 }
             }
 

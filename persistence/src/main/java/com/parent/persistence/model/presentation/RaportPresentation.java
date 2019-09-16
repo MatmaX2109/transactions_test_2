@@ -1,20 +1,29 @@
 package com.parent.persistence.model.presentation;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
 import java.math.BigDecimal;
 import java.util.List;
 
+@JsonInclude(JsonInclude.Include.NON_NULL)
 public class RaportPresentation {
 
     @JsonProperty("Tip tranzactie")
     private String type;
 
-    @JsonProperty("Numar de tranzactii")
+    @JsonIgnore
     private int count;
 
-    @JsonProperty("Suma totala tranzactionata")
+    @JsonProperty("Numar de tranzactii")
+    private String countString;
+
+    @JsonIgnore
     private BigDecimal total;
+
+    @JsonProperty("Suma totala tranzactionata")
+    private String sumaTotala;
 
     @JsonProperty("Detalii tranzactii")
     private List<TransactionDetails> details;
@@ -28,6 +37,22 @@ public class RaportPresentation {
 
     public RaportPresentation() {
 
+    }
+
+    public String getCountString() {
+        return countString;
+    }
+
+    public void setCountString(String countString) {
+        this.countString = countString;
+    }
+
+    public String getSumaTotala() {
+        return sumaTotala;
+    }
+
+    public void setSumaTotala(String sumaTotala) {
+        this.sumaTotala = sumaTotala;
     }
 
     public String getType() {
