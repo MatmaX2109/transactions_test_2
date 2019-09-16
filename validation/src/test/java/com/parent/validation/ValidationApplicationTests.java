@@ -46,13 +46,13 @@ public class ValidationApplicationTests {
 				"\t\"amount\":\"1\",\n" +
 				"\t\"payer\":{\n" +
 				"\t\t\"name\":\"a\",\n" +
-				"\t\t\"cnp\":\"2950122150046\",\n" +
-				"\t\t\"iban\":\"RO49INGB0000999901389748\"\n" +
+				"\t\t\"cnp\":\"1890921212716\",\n" +
+				"\t\t\"iban\":\"RO49AAAA1B31007593840000\"\n" +
 				"\t},\n" +
 				"\t\"payee\":{\n" +
 				"\t\t\"name\":\"a\",\n" +
 				"\t\t\"cnp\":\"1850512025795\",\n" +
-				"\t\t\"iban\":\"RO49INGB0000999901389748\"\n" +
+				"\t\t\"iban\":\"RO49AAAA1B31007593840000\"\n" +
 				"\t}\n" +
 				"}\n";
 
@@ -75,13 +75,13 @@ public class ValidationApplicationTests {
 				"\t\"amount\":\"1\",\n" +
 				"\t\"payer\":{\n" +
 				"\t\t\"name\":\"a\",\n" +
-				"\t\t\"cnp\":\"2950122150041\",\n" +
-				"\t\t\"iban\":\"RO49INGB0000999901389748\"\n" +
+				"\t\t\"cnp\":\"1890921212716\",\n" +
+				"\t\t\"iban\":\"RO49AAAA1B31007593840000\"\n" +
 				"\t},\n" +
 				"\t\"payee\":{\n" +
 				"\t\t\"name\":\"a\",\n" +
 				"\t\t\"cnp\":\"1850512025795\",\n" +
-				"\t\t\"iban\":\"RO49INGB0000999901389748\"\n" +
+				"\t\t\"iban\":\"RO49AAAA1B31007593840000\"\n" +
 				"\t}\n" +
 				"}\n";
 
@@ -108,13 +108,13 @@ public class ValidationApplicationTests {
 				"\t\"amount\":\"1\",\n" +
 				"\t\"payer\":{\n" +
 				"\t\t\"name\":\"a\",\n" +
-				"\t\t\"cnp\":\"2950122150046\",\n" +
-				"\t\t\"iban\":\"RO49INGB0000999901389748\"\n" +
+				"\t\t\"cnp\":\"1890921212716\",\n" +
+				"\t\t\"iban\":\"RO49AAAA1B31007593840000\"\n" +
 				"\t},\n" +
 				"\t\"payee\":{\n" +
 				"\t\t\"name\":\"a\",\n" +
 				"\t\t\"cnp\":\"1850512025795\",\n" +
-				"\t\t\"iban\":\"RO49INGB0000999901389748\"\n" +
+				"\t\t\"iban\":\"RO49AAAA1B31007593840000\"\n" +
 				"\t}\n" +
 				"}\n";
 
